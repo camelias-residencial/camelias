@@ -1,0 +1,24 @@
+{
+  "name": "camelias-services",
+  "version": "0.0.1",
+  "description": "Camelias Services",
+  "author": "Matheus Costa <matheus@eventene.com>",
+  "private": true,
+  "scripts": {
+    "dev": "harp server _src & browser-sync start --no-open --proxy 'localhost:9000' --files '**/*.jade, **/*.scss, **/*.json, **/*.js, **/*.md' --no-notify",
+    "build": "harp compile _src docs"
+  },
+  "devDependencies": {
+    "harp": "^0.29.0",
+    "browser-sync": "^2.26.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusagcosta/camelias-services.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matheusagcosta/camelias-services/issues"
+  },
+  "homepage": "https://github.com/matheusagcosta/camelias-services#readme"
+}
