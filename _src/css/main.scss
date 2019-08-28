@@ -1,8 +1,9 @@
-@import 'color-setup';
+@import 'colors';
 @import 'breakpoints';
 @import 'base';
 @import 'global';
 @import 'header';
+@import 'modal';
 
 .container {
   position: relative;

@@ -1,0 +1,39 @@
+main.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+  height: 300px;
+  border: 2px solid black;
+  position: absolute;
+  left: 40%;
+
+  .container__title {
+    width: 100%;
+    // border: ;
+  }
+
+  .title {
+    font-size: 24px;
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  .selectors {
+    display: flex;
+    flex-direction: column;
+    
+
+  // .tag {
+  //
+  // }
+
+  .content {
+    width: 80%;
+  }
+
+
+  }
+
+
+}

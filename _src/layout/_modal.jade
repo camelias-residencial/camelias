@@ -1,0 +1,15 @@
+main.container
+  div(class="container__title")
+    h1(class="title") Pedido de Inclusão de Pessoas
+     
+  form(action='https://formsquash.io/f/Ro6TazxGTXmmcuw9w6ie', method='POST')
+    div(class="selectors") 
+      label(class="tag" for="fullName") Nome
+      input(class="content" type='text', name='fullName')
+      label(class="tag" for="services") Serviços
+      input(class="content" type='text', name='services')
+      label(class="tag" for="phoneNumber") Telefone
+      input(class="content" type='phone', name='phoneNumber')
+      label(class="tag" for="website") Link (Opcional)
+      input(class="content" type='text', name='website')
+      button(type="submit") Enviar
