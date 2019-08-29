@@ -5,13 +5,14 @@ modal.modal
   form(class="form-content" action='https://formsquash.io/f/Ro6TazxGTXmmcuw9w6ie', method='POST')
     div(class="selectors") 
       label(class="modal-tag" for="fullName") Nome
-      input(class="modal-input" type='text', name='fullName')
+      input(class="modal-input" type='text', name='fullName' placeholder="Ivete")
       label(class="modal-tag" for="services") Serviços / Produtos
-      input(class="modal-input" type='text', name='services')
+      input(class="modal-input" type='text', name='services'
+      placeholder="Adicione até 3 itens separados por vírgula")
       label(class="modal-tag" for="phoneNumber") Telefone
-      input(class="modal-input" type='phone', name='phoneNumber')
+      input(class="modal-input" type='phone', name='phoneNumber'  placeholder="Número com DDD")
       label(class="modal-tag" for="website") Link (Opcional)
-      input(class="modal-input" type='text', name='website')
+      input(class="modal-input" type='text', name='website' placeholder="Site, Facebook, Instagram")
       div(class="modal-buttons")
         button(class="cancel-button" type="cancel") Cancelar
         button(class="confirm-button" type="submit") Confirmar
