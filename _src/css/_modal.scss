@@ -6,7 +6,7 @@ main.container {
   height: 300px;
   border: 2px solid black;
   position: absolute;
-  left: 40%;
+  left: 0;
 
   .container__title {
     width: 100%;
@@ -22,18 +22,13 @@ main.container {
   .selectors {
     display: flex;
     flex-direction: column;
-    
 
-  // .tag {
-  //
-  // }
+    // .tag {
+    //
+    // }
 
-  .content {
-    width: 80%;
+    .content {
+      width: 80%;
+    }
   }
-
-
-  }
-
-
 }

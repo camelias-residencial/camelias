@@ -1,0 +1,220 @@
+{
+  "user-0": {
+    "name": "Siméia",
+    "tag1": "Bolos",
+    "tag2": "Doces",
+    "phone": "99705-3157"
+  },
+  "user-1": {
+    "name": "Silvana",
+    "tag1": "Panquecas",
+    "phone": "99777-6885"
+  },
+  "user-2": {
+    "name": "Sabrina",
+    "tag1": "Engenheira Civil",
+    "phone": "99655-9383"
+  },
+  "user-3": {
+    "name": "Renata",
+    "tag1": "Veterinária",
+    "phone": "99179-4244"
+  },
+  "user-4": {
+    "name": "Renata",
+    "tag1": "Manicure",
+    "phone": "99781-3147"
+  },
+  "user-5": {
+    "name": "Raul",
+    "tag1": "Personal Trainner",
+    "phone": "99638-8296"
+  },
+  "user-6": {
+    "name": "Raquel",
+    "tag1": "Bolos",
+    "tag2": "Doces",
+    "phone": "99723-6083"
+  },
+  "user-7": {
+    "name": "Rafael",
+    "tag1": "Artesanato",
+    "phone": "99808-6060"
+  },
+  "user-8": {
+    "name": "Monique",
+    "tag1": "Advogada",
+    "phone": "99173-8553"
+  },
+  "user-9": {
+    "name": "Mônica",
+    "tag1": "Cuidadora",
+    "phone": "98815-0491"
+  },
+  "user-10": {
+    "name": "Meire",
+    "tag1": "Antepastos",
+    "phone": "99607-5905"
+  },
+  "user-11": {
+    "name": "Marília",
+    "tag1": "Semi Jóias",
+    "phone": "99821-0022"
+  },
+  "user-12": {
+    "name": "Maria Cristina",
+    "tag1": "Alimentação Vegana",
+    "phone": "98156-6300"
+  },
+  "user-13": {
+    "name": "Maria Carolina",
+    "tag1": "Advogada",
+    "phone": "99726-2570"
+  },
+  "user-14": {
+    "name": "Lucas",
+    "tag1": "Suporte TI",
+    "phone": "98133-8884"
+  },
+  "user-15": {
+    "name": "Lourdes",
+    "tag1": "Bolos",
+    "tag2": "Panos de prato",
+    "phone": "99658-3485"
+  },
+  "user-16": {
+    "name": "Lígia",
+    "tag1": "Costureira",
+    "phone": "99794-7900"
+  },
+  "user-17": {
+    "name": "Lea",
+    "tag1": "Prod. Jeunesse",
+    "tag2": "Cabeleireira",
+    "phone": "99756-8880"
+  },
+  "user-18": {
+    "name": "Lara",
+    "tag1": "Rep. Pierre Alexander",
+    "phone": "99801-6398"
+  },
+  "user-19": {
+    "name": "Jorge",
+    "tag1": "Móveis Planejados",
+    "phone": "99878-1347"
+  },
+  "user-20": {
+    "name": "Jô",
+    "tag1": "Massas",
+    "phone": "99686-1012"
+  },
+  "user-21": {
+    "name": "Jennyfer",
+    "tag1": "Esteticista",
+    "phone": "98127-4634"
+  },
+  "user-22": {
+    "name": "Janaina",
+    "tag1": "Personalizados",
+    "phone": "98123-5967"
+  },
+  "user-23": {
+    "name": "Indira",
+    "tag1": "Esteticista",
+    "phone": "98165-7465"
+  },
+  "user-24": {
+    "name": "Hérica",
+    "tag1": "Jornalista",
+    "tag2": "Marketing Digital",
+    "phone": "99719-5983"
+  },
+  "user-25": {
+    "name": "Geraldo",
+    "tag1": "Restaurante",
+    "phone": "98172-2313"
+  },
+  "user-26": {
+    "name": "Fernanda",
+    "tag1": "Cosméticos",
+    "tag2": "Adereços Pet",
+    "phone": "99670-9495"
+  },
+  "user-27": {
+    "name": "Fábio",
+    "tag1": "Chopp",
+    "phone": "99701-1314"
+  },
+  "user-28": {
+    "name": "Ezequiel",
+    "tag1": "Vidraçaria",
+    "phone": "99696-1540"
+  },
+  "user-29": {
+    "name": "Erika",
+    "tag1": "Ovos",
+    "tag2": "Tomatinhos",
+    "phone": "98130-0503"
+  },
+  "user-30": {
+    "name": "Elo Laços",
+    "tag1": "Laços",
+    "tag2": "Tiaras",
+    "phone": "99694-5300"
+  },
+  "user-31": {
+    "name": "Eduarda",
+    "tag1": "Adesivos",
+    "tag2": "Quadros",
+    "tag3": "Mandalas",
+    "phone": "98196-0135"
+  },
+  "user-32": {
+    "name": "Edna",
+    "tag1": "Manicure",
+    "phone": "99103-8716"
+  },
+  "user-33": {
+    "name": "Cristina",
+    "tag1": "Cabeleireira",
+    "phone": "99711-0689"
+  },
+  "user-34": {
+    "name": "Cléo/Ana",
+    "tag1": "Bolos",
+    "tag2": "Pães",
+    "phone": "99712-4200"
+  },
+  "user-35": {
+    "name": "Claudia",
+    "tag1": "Professora Particular",
+    "phone": "99774-7935"
+  },
+  "user-36": {
+    "name": "Cissa",
+    "tag1": "Bala Baiana",
+    "tag2": "Doces Fit",
+    "phone": "99620-4263"
+  },
+  "user-37": {
+    "name": "Carla",
+    "tag1": "Congelados",
+    "phone": "99125-8798"
+  },
+  "user-38": {
+    "name": "Ana Baroni",
+    "tag1": "Advogada",
+    "phone": "99719-6388"
+  },
+  "user-39": {
+    "name": "Alessandra",
+    "tag1": "Natura",
+    "phone": "99707-3277",
+    "website": "www.natura.com.br/consultoria/alessandracravo"
+  },
+  "user-40": {
+    "name": "Alan",
+    "tag1": "Eletricista Industrial e Predial",
+    "phone": "99741-6071"
+  }
+}
