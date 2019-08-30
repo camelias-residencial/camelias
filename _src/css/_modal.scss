@@ -1,88 +1,100 @@
 .modal {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  position: relative;
-  width: 360px;
-  height: 532px;
-  background-color: $white;
+  background-color: rgba(0,0,0,0.8);
+  -webkit-transition: all .3s;
+  opacity: 0;
+  pointer-events: none;
+  transition: all .3s;
+  z-index: 10000102;
+  visibility: hidden;
 
-
-  .container--title {
-    display: flex;
-    justify-content: center;
+  &:target {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
   }
 
-  .title {
+  &__close {
+    position: absolute;
+    z-index: 10000103;
+    width: 100%;
+    height: 100%;
+  }
+
+  &,
+  &__holder {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+  }
+
+  &__holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 360px;
+    height: 502px;
+    background-color: $white;
+    margin: auto;
+    z-index: 10000104;
+    overflow: hidden;
+    padding: 20px 0;
+  }
+
+  &__header {
+    display: flex;
+    padding: 0 20px;
+  }
+
+  &__title {
     font-size: unset;
-    position: relative;
-    left: -41px;
     border-bottom: none;
   }
 
-  .form-content {
+  &__form {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     line-height: 40px;
   }
 
-  .selectors {
-    width: 90%;
+  &__selectors {
+    width: 100%;
     display: flex;
     flex-direction: column;
+    padding: 20px;
   }
 
-  .modal-tag {
+  &__tag {
     display: flex;
     justify-content: flex-start;
     color: $darkgrey;
     font-size: 14px;
   }
 
-  .modal-input {
-    border-radius: 5px;
-    height: 39px;
-    padding-left: 15px;
-    background-color: $grey;
-  }
 
-  .modal-input::placeholder {
+  &__input::placeholder {
     color: $asphalt;
   }
 
-  /*.modal-input:focus + .modal-input::placeholder {
-    opacity: 0;
-    visibility: hidden;
-  }*/
-
-  .modal-buttons {
-    margin-top: 50px;
+  &__footer {
+    padding: 20px;
     display: flex;
     justify-content: space-around;
-    box-shadow: 0px 10px 20px $white;
-    border-width: 100%;
+    border-top: 1px solid $silver;
     position: relative;
 
   }
 
-  .cancel-button {
+  &__button {
     background-color: $white;
     border: none;
     width: 40%;
     font-weight: bold;
     color: $asphalt;
+    text-align: center;
+    text-decoration: none;
   }
 
-  .confirm-button {
-    background-color: $green;
-    border-radius: 4px;
-    width: 40%;
-    height: 40px;
-    font-weight: bold;
-    color: $white;
-    outline: none;
-
-
-
-  }
 }
