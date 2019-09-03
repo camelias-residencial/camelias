@@ -7,12 +7,11 @@ modal.modal#open-modal
     form.modal__form(action='https://formsquash.io/f/Ro6TazxGTXmmcuw9w6ie', method='POST')
       .modal__selectors 
         label.modal__tag(for="fullName") Nome
-        input.modal__input.input(type='text', name='fullName' placeholder="Ivete")
+        input.modal__input.input(type='text', name='fullName' placeholder="Ivete" pattern="[A-Za-z]" required)
         label.modal__tag(for="services") Serviços / Produtos
-        input.modal__input.input(type='text', name='services'
-        placeholder="Adicione até 3 itens separados por vírgula")
+        input.modal__input.input(type='text', name='services' placeholder="Adicione até 3 itens separados por vírgula" required)
         label.modal__tag(for="phoneNumber") Telefone
-        input.modal__input.input(type='phone', name='phoneNumber'  placeholder="Número com DDD")
+        input.modal__input.input(type='phone', name='phoneNumber'  placeholder="Número com DDD" pattern="[1-9]{2}[0-9]{4,5}[0-9]{4}"  minlength="10" maxlength="15" required)
         label.modal__tag(for="website") Link (Opcional)
         input.modal__input.input(type='text', name='website' placeholder="Site, Facebook, Instagram")
       .modal__footer
