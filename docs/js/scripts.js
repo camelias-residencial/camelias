@@ -2,7 +2,7 @@ $ (document).ready (function () {
   $ ('.header__input').keyup (function () {
     var _this = this;
     // Show or hide items
-    $.each ($ ('.card'), function () {
+    $.each ($ ('[data-card]'), function () {
       console.log ($ (this).text ());
       if (
         $ (this)
@@ -13,5 +13,8 @@ $ (document).ready (function () {
         $ (this).hide ();
       else $ (this).show ();
     });
+  });
+  $("[data-clear]").on("click", function(){
+    $('#modal-form')[0].reset();
   });
 });

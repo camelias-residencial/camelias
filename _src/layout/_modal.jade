@@ -1,10 +1,10 @@
 modal.modal#open-modal
-  a.modal__close(href="#close-modal")
+  a.modal__close(href="#close-modal" data-clear)
   .modal__holder
     .modal__header
       h1.modal__title Pedido de Inclusão de Pessoa
        
-    form.modal__form(action='https://formsquash.io/f/Ro6TazxGTXmmcuw9w6ie', method='POST')
+    form.modal__form#modal-form(action='https://formsquash.io/f/Ro6TazxGTXmmcuw9w6ie', method='POST')
       .modal__selectors 
         label.modal__tag(for="fullName") Nome
         input.modal__input.input(type='text', name='fullName' placeholder="Ivete" pattern="([^][A-zÀ-ž][^]+)" required)
@@ -15,12 +15,7 @@ modal.modal#open-modal
         label.modal__tag(for="website") Link (Opcional)
         input.modal__input.input(type='text', name='website' placeholder="Site, Facebook, Instagram")
       .modal__footer
-        a.modal__button(href="#close-modal") Cancelar
-        button.button(type="submit") Confirmar
+        a.modal__button(href="#close-modal" data-clear) Cancelar
+        button.button(type="submit" ) Confirmar
 
  
-//- ([A-z0-9À-ž\s]+{1,}) Special characters
-//- [a-zA-Z]+[a-zA-Z ]+{1,} Funciona
-//- [a-zA-Z]+[ ][a-zA-Z ]+{1,} Funciona
-
-//- [1-9]{2}[0-9]{4,5}[0-9]{4} - Código anterior

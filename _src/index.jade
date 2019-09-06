@@ -3,7 +3,7 @@
     a.card__button(href="#open-modal") Incluir Pessoa
 
   each user, slug in public.data._data
-    .card
+    .card(data-card)
       h4 #{ user.name }
       p #{ user.phone }
       br
