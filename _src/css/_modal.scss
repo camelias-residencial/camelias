@@ -1,9 +1,9 @@
 .modal {
-  background-color: rgba(0,0,0,0.8);
-  -webkit-transition: all .3s;
+  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-transition: all 0.3s;
   opacity: 0;
   pointer-events: none;
-  transition: all .3s;
+  transition: all 0.3s;
   z-index: 10000102;
   visibility: hidden;
 
@@ -27,6 +27,7 @@
     bottom: 0;
     left: 0;
     position: fixed;
+    max-width: 100%;
   }
 
   &__holder {
@@ -83,7 +84,6 @@
     justify-content: space-around;
     border-top: 1px solid $silver;
     position: relative;
-
   }
 
   &__button {
@@ -94,6 +94,10 @@
     color: $asphalt;
     text-align: center;
     text-decoration: none;
-  }
+    transition: background-color 0.2s linear;
 
+    &:hover {
+      background-color: $grey;
+    }
+  }
 }

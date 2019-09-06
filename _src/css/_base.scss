@@ -2,16 +2,28 @@
   -webkit-overflow-scrolling: touch;
 }
 
-*, ::after, ::before {
+*,
+::after,
+::before {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Helvetica';
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
   padding: 50px 20px 0;
   background: #f4f4f7;
   color: #444;
   margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto Slab', serif;
 }
 
 h1 {
@@ -22,4 +34,9 @@ h1 {
 
 h3 {
   font-weight: 300;
+}
+
+input,
+button {
+  font-size: 14px;
 }
