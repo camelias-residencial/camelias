@@ -3,22 +3,50 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  position: absolute;
 
 
 
-  .card {
+  .cards {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
     width: 350px;
-    border: 1px solid black;
     height: 150px;
-    margin: 20px;
+    margin: 15px;
     border-radius: 5px;
+    text-align: left;
+    background: $white;
   }
 
   .card__button {
-    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
   }
+
+  .card__icon {
+    margin: 0 20px;
+  }
+
+  .name {
+
+  }
+
+  .skills {
+    padding: 5px;
+    border-radius: 3px;
+    background-color: $green;
+    color: $white;
+  }
+
+  .info {
+
+  }
+
+
+
 
 }
