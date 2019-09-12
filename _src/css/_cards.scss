@@ -5,45 +5,72 @@
   align-items: center;
   position: absolute;
 
+  a {
+    text-decoration: none;
+    color: $asphalt;
+    font-weight: bolder;
+    color: $green;
+    font-size: 18px;
+  }
 
+  a:hover {
+    opacity: 0.5;
+    transition: opacity 0.5s linear;
+  }
+
+  .cards__modal {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 350px;
+    height: 150px;
+    margin: 15px;
+    border-radius: 5px;
+    background: $white;
+
+  }
+
+
+  .card__icon {
+    margin: 0 20px;
+  }
 
   .cards {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     width: 350px;
     height: 150px;
     margin: 15px;
     border-radius: 5px;
     text-align: left;
     background: $white;
+    padding-left: 20px;
   }
 
-  .card__button {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  .card__icon {
-    margin: 0 20px;
-  }
-
-  .name {
-
+  h4 {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: initial;
+    margin-bottom: inherit;
   }
 
   .skills {
     padding: 5px;
-    border-radius: 3px;
+    border-radius: 5px;
     background-color: $green;
     color: $white;
   }
 
   .info {
+    display: flex;
+    flex-direction: row;
+  }
 
+  .phone__icon {
+    position: absolute;
   }
 
 
