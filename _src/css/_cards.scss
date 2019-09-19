@@ -1,101 +1,93 @@
-.container {
+.card {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 350px;
+  height: auto;
+  margin: 15px;
+  border-radius: 5px;
+  background: $white;
 
-  a {
+
+  @media screen and (max-width: $tablet) {
+    margin: 15px 0;
+    min-width: 100%;
+  }
+
+  &--modal {
+    min-height: 150px;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
     text-decoration: none;
-    color: $asphalt;
     font-weight: bolder;
     color: $green;
     font-size: 18px;
   }
 
-  a:hover {
+  &--modal:hover {
     opacity: 0.5;
     transition: opacity 0.5s linear;
   }
 
-  h4 {
+  &__icon:not(.card__icon--contact) {
+    margin: 0 20px;
+  }
+
+  &__icon--contact {
+    margin-right: 10px;
+  }
+
+  &__contact {
+    margin: 15px 0;
+    padding-left: 20px;
+  }
+
+  &__title {
     font-size: 18px;
     font-weight: bolder;
     margin-top: initial;
     margin-bottom: inherit;
   }
 
-  p {
+  &__label {
     font-size: 14px;
     color: $darkgrey;
-    position: absolute;
-    margin-left: 25px;
+    margin: 0;
+    text-decoration: none;
   }
 
-  .cards__modal {
+  &__services {
     display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    width: 350px;
-    height: 150px;
-    margin: 15px;
-    border-radius: 5px;
-    background: $white;
+    flex-wrap: wrap;
+    align-items: baseline;
   }
 
-  .card__icon {
-    margin: 0 20px;
-  }
-
-  .cards {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 350px;
-    height: 150px;
-    margin: 15px;
-    border-radius: 5px;
-    background: $white;
-  }
-
-  .contact {
-    margin: 15px 0;
-    padding-left: 20px;
-  }
-
-  .service {
+  &__tag {
     padding: 5px;
     border-radius: 5px;
     background-color: $green;
     color: $white;
   }
 
-  .info {
+  &__tag:not(:last-child) {
+    margin: 5px 10px 5px 0px;
+  }
+
+  &__block,
+  &__info {
+    display: flex;
+    align-items: center;
+  }
+
+  &__block:not(:first-child) {
+    margin-left: 20px;
+  }
+
+  &__info {
     border-top: 2px solid $grey;
     width: 100%;
-    padding-left: 20px;
+    padding: 20px;
   }
-
-  .phone__icon {
-    position: absolute;
-    margin-top: 13px;
-  }
-
-  .website__icon {
-    position: absolute;
-    margin-top: 14px;
-    margin-left: 150px;
-  }
-
-  .website {
-    position: absolute;
-    margin-top: 13px;
-    margin-left: 180px;
-    font-size: 14px;
-    color: $darkgrey;
-    font-weight: normal;
-  }
-
-
 }
