@@ -1,43 +1,42 @@
-.input {
-  width: 100%;
-  height: 40px;
-  border-radius: 4px;
-  background-color: $grey;
-  border: 2px solid transparent;
+* {
+  -webkit-overflow-scrolling: touch;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  padding: 4px 8px;
-  transition: all 0.2s linear;
-
-  &:focus {
-    background-color: $white;
-    border-color: $grey;
-  }
+  padding: 50px 20px 0;
+  background: #f4f4f7;
+  color: #444;
+  margin: 0;
 }
 
-.button {
-  background-color: $green;
-  border-radius: 4px;
-  width: 40%;
-  height: 40px;
-  font-weight: bold;
-  color: $white;
-  outline: none;
-  cursor: pointer;
-  border: none;
-  transition: background-color 0.2s linear;
-
-  &:hover {
-    background-color: darken($green, 10);
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto Slab', serif;
 }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: stretch;
-  margin: auto;
-  max-width: 100%;
-  position: relative;
-  top: 170px;
+h1 {
+  font-size: 65px;
+  line-height: 1.2em;
+  border-bottom: #ccc solid 1px;
+}
+
+h3 {
+  font-weight: 300;
+}
+
+input,
+button {
+  font-size: 14px;
 }

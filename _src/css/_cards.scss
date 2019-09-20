@@ -3,14 +3,28 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  width: 350px;
   height: auto;
   margin: 15px;
   border-radius: 5px;
   background: $white;
 
+  @media screen and (min-width: $hd) {
+    width: calc(100% / 5 - 30px);
+  }
+
+  @media screen and (max-width: $hd-up) {
+    width: calc(100% / 4 - 30px);
+  }
+
+  @media screen and (max-width: $web) {
+    width: calc(100% / 3 - 30px);
+  }
 
   @media screen and (max-width: $tablet) {
+    width: calc(100% / 2 - 30px);
+  }
+
+  @media screen and (max-width: $mobile) {
     margin: 15px 0;
     min-width: 100%;
   }
@@ -24,19 +38,28 @@
     font-weight: bolder;
     color: $green;
     font-size: 18px;
+    transition: box-shadow .25s linear;
   }
 
   &--modal:hover {
-    opacity: 0.5;
-    transition: opacity 0.5s linear;
+    box-shadow: 0px 10px 20px rgba(31, 32, 65, 0.05);
   }
 
   &__icon:not(.card__icon--contact) {
-    margin: 0 20px;
+    margin-right: 20px;
+    transition: transform .25s linear;
+
+    .card--modal:hover & {
+      transform: rotate(180deg);
+    }
   }
 
   &__icon--contact {
     margin-right: 10px;
+  }
+
+  &__icon--contact * {
+    transition: fill .25s linear;
   }
 
   &__contact {
@@ -52,10 +75,20 @@
   }
 
   &__label {
+    display: flex;
     font-size: 14px;
     color: $darkgrey;
     margin: 0;
     text-decoration: none;
+    transition: color .15s linear;
+  }
+
+  &__label:hover {
+    color: $green;
+
+    .card__icon * {
+      fill: $green;
+    }
   }
 
   &__services {
