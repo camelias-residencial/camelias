@@ -5,29 +5,25 @@
     span.card__text Incluir Pessoa
 
   each user, slug in public.data._data
-    .card(data-card) 
+    .card(data-card)
       .card__contact
         h4.card__title #{ user.name }
         .card__services
-          if user.tag1 
+          if user.tag1
             span.card__tag #{ user.tag1 }
-          if user.tag2  
+          if user.tag2
             span.card__tag #{ user.tag2 }
           if user.tag3
             span.card__tag #{ user.tag3 }
       .card__info
         .card__block
-          svg.card__icon.card__icon--contact(width='15', height='15', viewbox='0 0 15 15', fill='none', xmlns='http://www.w3.org/2000/svg')
-            path(d='M3.01667 6.49167C4.21667 8.85 6.15 10.775 8.50833 11.9833L10.3417 10.15C10.5667 9.925 10.9 9.85 11.1917 9.95C12.125 10.2583 13.1333 10.425 14.1667 10.425C14.625 10.425 15 10.8 15 11.2583V14.1667C15 14.625 14.625 15 14.1667 15C6.34167 15 0 8.65833 0 0.833333C0 0.375 0.375 0 0.833333 0H3.75C4.20833 0 4.58333 0.375 4.58333 0.833333C4.58333 1.875 4.75 2.875 5.05833 3.80833C5.15 4.1 5.08333 4.425 4.85 4.65833L3.01667 6.49167Z', fill='#8F8FA0')
-          p.card__label #{ user.phone }
+          a.card__label(href="tel:#{ user.phone }")
+            svg.card__icon.card__icon--contact(width='15', height='15', viewbox='0 0 15 15', fill='none', xmlns='http://www.w3.org/2000/svg')
+              path(d='M3.01667 6.49167C4.21667 8.85 6.15 10.775 8.50833 11.9833L10.3417 10.15C10.5667 9.925 10.9 9.85 11.1917 9.95C12.125 10.2583 13.1333 10.425 14.1667 10.425C14.625 10.425 15 10.8 15 11.2583V14.1667C15 14.625 14.625 15 14.1667 15C6.34167 15 0 8.65833 0 0.833333C0 0.375 0.375 0 0.833333 0H3.75C4.20833 0 4.58333 0.375 4.58333 0.833333C4.58333 1.875 4.75 2.875 5.05833 3.80833C5.15 4.1 5.08333 4.425 4.85 4.65833L3.01667 6.49167Z', fill='#8F8FA0')
+            span #{ user.phone }
         if user.website
-          //- if 'http' in user.website 
-          //-   - website = user.website
-          //- else
-          //-   - website = 'http://' + user.website
           .card__block
-            svg.card__icon.card__icon--contact(width='19', height='13', viewbox='0 0 19 13', fill='none', xmlns='http://www.w3.org/2000/svg')
-              path(d='M15.8333 11.375C16.7042 11.375 17.4088 10.6438 17.4088 9.75L17.4167 1.625C17.4167 0.73125 16.7042 0 15.8333 0H3.16667C2.29583 0 1.58333 0.73125 1.58333 1.625V9.75C1.58333 10.6438 2.29583 11.375 3.16667 11.375H0V13H19V11.375H15.8333ZM3.16667 1.625H15.8333V9.75H3.16667V1.625Z', fill='#8F8FA0')
-            a.card__label(href="#{website}", target="_blank") Acessar site
-            
-          
+            a.card__label(href="http://#{user.website}", target="_blank")
+              svg.card__icon.card__icon--contact(width='19', height='13', viewbox='0 0 19 13', fill='none', xmlns='http://www.w3.org/2000/svg')
+                path(d='M15.8333 11.375C16.7042 11.375 17.4088 10.6438 17.4088 9.75L17.4167 1.625C17.4167 0.73125 16.7042 0 15.8333 0H3.16667C2.29583 0 1.58333 0.73125 1.58333 1.625V9.75C1.58333 10.6438 2.29583 11.375 3.16667 11.375H0V13H19V11.375H15.8333ZM3.16667 1.625H15.8333V9.75H3.16667V1.625Z', fill='#8F8FA0')
+              span  Acessar site
