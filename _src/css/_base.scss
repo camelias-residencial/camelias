@@ -41,5 +41,12 @@
   max-width: 100%;
   padding: 10px 0 20px;
   position: relative;
-  top: 136px;
+
+  @media screen and (min-width: $mobile) {
+    top: 136px;
+  }
+
+  @media screen and (max-width: $mobile-up) {
+    top: 116px;
+  }
 }

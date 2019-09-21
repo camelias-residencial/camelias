@@ -30,7 +30,6 @@
   }
 
   &--modal {
-    min-height: 150px;
     justify-content: center;
     flex-direction: row;
     align-items: center;
@@ -39,6 +38,14 @@
     color: $green;
     font-size: 18px;
     transition: box-shadow .25s linear;
+
+    @media screen and (min-width: $mobile) {
+      min-height: 150px;
+    }
+
+    @media screen and (max-width: $mobile-up) {
+      height: 100px;
+    }
   }
 
   &--modal:hover {
@@ -75,6 +82,7 @@
   }
 
   &__label {
+    align-items: center;
     display: flex;
     font-size: 14px;
     color: $darkgrey;
