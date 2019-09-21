@@ -1,4 +1,4 @@
-modal.modal#open-modal
+.modal#open-modal
   a.modal__close(href="#close-modal" data-clear)
   .modal__holder
     .modal__header
@@ -17,3 +17,14 @@ modal.modal#open-modal
       .modal__footer
         a.modal__button(href="#close-modal" data-clear) Cancelar
         button.button(type="submit" ) Confirmar
+
+
+.modal#success-modal
+  a.modal__close(href="#close-modal")
+  .modal__holder.modal__holder--small
+    .modal__header
+      h1.modal__title Sua solicitação foi enviada! 🎉
+    .modal__content
+      p Vamos analisar seus dados e se tudo estiver certo em breve vai estar aqui no site.
+    .modal__footer
+      a.button(href="#close-modal") Fechar

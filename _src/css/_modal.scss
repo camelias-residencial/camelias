@@ -35,7 +35,6 @@
     flex-direction: column;
     justify-content: flex-start;
     width: 360px;
-    height: 502px;
     background-color: $white;
     margin: auto;
     z-index: 10000104;
@@ -43,7 +42,16 @@
     padding: 20px 0;
   }
 
-  &__header {
+  &__holder:not(.modal__holder--small) {
+    height: 502px;
+  }
+
+  &__holder--small {
+    height: 200px;
+  }
+
+  &__header,
+  &__content {
     display: flex;
     padding: 0 20px;
   }

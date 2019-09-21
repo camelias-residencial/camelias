@@ -31,7 +31,7 @@
     "phone": "99638-8296"
   },
   "user-6": {
-    "name": "Raquel",
+    "name": "Rachel",
     "tag1": "Bolos",
     "tag2": "Doces",
     "phone": "99723-6083"
@@ -64,6 +64,8 @@
   "user-12": {
     "name": "Maria Cristina",
     "tag1": "Alimentação Vegana",
+    "tag2": "Bala de Côco",
+    "tag3": "Doces",
     "phone": "98156-6300"
   },
   "user-13": {
@@ -216,5 +218,11 @@
     "name": "Alan",
     "tag1": "Eletricista Industrial e Predial",
     "phone": "99741-6071"
+  },
+  "user-41": {
+    "name": "Maria Angélica",
+    "tag1": "Pães Recheados",
+    "tag2": "Salgados Assados",
+    "phone": "98156-6300"
   }
 }
