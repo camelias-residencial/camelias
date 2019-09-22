@@ -47,18 +47,26 @@
   }
 
   &__holder--small {
-    height: 200px;
+    height: 220px;
   }
 
   &__header,
   &__content {
     display: flex;
+  }
+
+  &__header {
     padding: 0 20px;
   }
 
+  &__content {
+    padding: 10px 20px;
+  }
+
   &__title {
-    font-size: unset;
+    font-size: 18px;
     border-bottom: none;
+    margin-bottom: 0;
   }
 
   &__form {
