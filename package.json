@@ -1,8 +1,8 @@
 {
   "name": "camelias-services",
   "version": "0.0.1",
-  "description": "Camelias Services",
-  "author": "Matheus Costa <matheus@eventene.com>",
+  "description": "Camélias - Produtos & Serviços",
+  "author": "Matheus Costa <matheusagcosta@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "harp server _src & browser-sync start --no-open --proxy 'localhost:9000' --files '**/*.jade, **/*.scss, **/*.json, **/*.js, **/*.md' --no-notify",
@@ -14,11 +14,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/matheusagcosta/camelias-services.git"
+    "url": "git+https://github.com/camelias-residencial/produtos-servicos.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/matheusagcosta/camelias-services/issues"
+    "url": "https://github.com/camelias-residencial/produtos-servicos/issues"
   },
-  "homepage": "https://github.com/matheusagcosta/camelias-services#readme"
+  "homepage": "https://github.com/camelias-residencial/produtos-servicos#readme"
 }
