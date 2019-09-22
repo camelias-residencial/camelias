@@ -212,7 +212,7 @@
     "name": "Alessandra",
     "tag1": "Natura",
     "phone": "99707-3277",
-    "website": "www.natura.com.br/consultoria/alessandracravo"
+    "website": "https://www.natura.com.br/consultoria/alessandracravo"
   },
   "user-40": {
     "name": "Alan",
@@ -230,7 +230,7 @@
     "name": "Beatriz",
     "tag1": "Crochê em fio de malha",
     "phone": "1196198-0150",
-    "website": "www.instagram.com/beanocrochet/"
+    "website": "https://www.instagram.com/beanocrochet/"
   },
   "user-43": {
     "name": "Luciana Midory",
@@ -256,7 +256,8 @@
     "name": "Elaine",
     "tag1": "Artesanato",
     "tag2": "Objetos Decorativos",
-    "phone": "99111-4995"
+    "phone": "99111-4995",
+    "website": "https://www.instagram.com/santelobauru/"
   },
   "user-47": {
     "name": "David Fontes",
@@ -275,6 +276,6 @@
     "tag1": "Calçados",
     "tag2": "Acessórios",
     "phone": "99133-5620",
-    "website": "www.facebook.com/MahCarrara-Cal%C3%A7ados-2163893740394132/"
+    "website": "https://www.facebook.com/MahCarrara-Cal%C3%A7ados-2163893740394132/"
   }
 }
