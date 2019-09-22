@@ -69,15 +69,14 @@
   }
 
   &__contact {
-    margin: 15px 0;
-    padding-left: 20px;
+    margin: 15px 0 5px;
+    padding: 0 15px;
   }
 
   &__title {
     font-size: 18px;
-    font-weight: bolder;
-    margin-top: initial;
-    margin-bottom: inherit;
+    font-weight: bold;
+    margin: 0 0 10px;
   }
 
   &__label {
@@ -109,10 +108,11 @@
     border-radius: 5px;
     background-color: $green;
     color: $white;
+    margin-bottom: 10px;
   }
 
   &__tag:not(:last-child) {
-    margin: 5px 10px 5px 0px;
+    margin-right: 10px;
   }
 
   &__block,
@@ -133,7 +133,7 @@
   &__info {
     border-top: 2px solid $grey;
     width: 100%;
-    padding: 10px 20px;
+    padding: 10px 15px;
     flex-wrap: wrap;
   }
 }

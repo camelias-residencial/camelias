@@ -27,7 +27,7 @@
   },
   "user-5": {
     "name": "Raul",
-    "tag1": "Personal Trainner",
+    "tag1": "Personal Trainer",
     "phone": "99638-8296"
   },
   "user-6": {
@@ -223,7 +223,7 @@
     "name": "Maria Angélica",
     "tag1": "Pães Recheados",
     "tag2": "Salgados Assados",
-    "tag3": "Beliscões De Goiabada",
+    "tag3": "Beliscões de Goiabada",
     "phone": "98156-6300"
   },
   "user-42": {
@@ -243,6 +243,13 @@
     "tag1": "Designer",
     "tag2": "Editor de vídeo",
     "tag3": "Motion Designer",
+    "phone": "981555695"
+  },
+  "user-45": {
+    "name": "Terê Artesanatos",
+    "tag1": "Bolsas",
+    "tag2": "Necesserie",
+    "tag3": "Porta Celular e Presentes",
     "phone": "981555695"
   }
 }
