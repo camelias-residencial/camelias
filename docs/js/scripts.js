@@ -20,6 +20,15 @@ $ (document).ready (function () {
     });
   });
 
+  // Sort by Name
+  $(function() {
+    $("[data-card]").sort(sort_li).appendTo('.container');
+    function sort_li(a, b) {
+      return ($(b).data('name')) < ($(a).data('name')) ? 1 : -1;
+    }
+  });
+
+  // Clear Modal Form
   $("[data-clear]").on("click", function(){
     $('#modal-form')[0].reset();
   });

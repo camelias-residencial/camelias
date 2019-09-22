@@ -5,7 +5,7 @@
     span.card__text Incluir Pessoa
 
   each user, slug in public.data._data
-    .card(data-card)
+    .card(data-card, data-name="#{ user.name }")
       .card__contact
         h4.card__title #{ user.name }
         .card__services
