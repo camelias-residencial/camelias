@@ -236,20 +236,45 @@
     "name": "Luciana Midory",
     "tag1": "Presentes",
     "tag2": "Designer",
-    "phone": "981692077"
+    "phone": "98169-2077"
   },
   "user-44": {
     "name": "Vinicius Tavares",
     "tag1": "Designer",
     "tag2": "Editor de vídeo",
     "tag3": "Motion Designer",
-    "phone": "981555695"
+    "phone": "98155-5695"
   },
   "user-45": {
     "name": "Terê Artesanatos",
     "tag1": "Bolsas",
     "tag2": "Necesserie",
     "tag3": "Porta Celular e Presentes",
-    "phone": "981555695"
+    "phone": "98155-5695"
+  },
+  "user-46": {
+    "name": "Elaine",
+    "tag1": "Artesanato",
+    "tag2": "Objetos Decorativos",
+    "phone": "99111-4995"
+  },
+  "user-47": {
+    "name": "David Fontes",
+    "tag1": "Advogado",
+    "phone": "98803-0843"
+  },
+  "user-48": {
+    "name": "José Marcos",
+    "tag1": "Telas Mosquiteiras",
+    "tag2": "Box",
+    "tag3": "Vidros",
+    "phone": "99784-0511"
+  },
+  "user-49": {
+    "name": "Mariane Carrara",
+    "tag1": "Calçados",
+    "tag2": "Acessórios",
+    "phone": "99133-5620",
+    "website": "www.facebook.com/MahCarrara-Cal%C3%A7ados-2163893740394132/"
   }
 }
