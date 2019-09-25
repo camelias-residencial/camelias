@@ -3,35 +3,46 @@
   flex-direction: row;
   width: 100%;
   background-color: $green;
-}
+  height: 100%;
+  padding: 0;
 
-.error__box {
-  width: 55%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: $white;
-}
+  &__box  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
 
-.box__content {
-  text-align: left;
-  line-height: 50px;
-}
+  &__box:first-child {
+    background-color: $white;
+  }
 
-.title {
-  border-bottom: none;
-  line-height: 0;
-}
+  &__box:last-child {
+    border-left: 50px solid white;
+  }
 
-.button {
-  width: 40%;
-  color: white;
-  background: $green;
-  border: none;
-  border-radius: 3px;
-  padding: 6px;
-}
+  &__content {
+    text-align: left;
+    line-height: 50px;
+  }
 
-.hiker__flower {
-  overflow: visible;
+  &__title {
+    border-bottom: none;
+    line-height: 0;
+  }
+
+  &__button {
+    min-width: 100px;
+    display: inline-block;
+    line-height: 1.4;
+  }
+
+
+  &__illustration {
+    position: absolute;
+    z-index: 44;
+    right: 0;
+    bottom: 0;
+    max-width: 70%;
+  }
 }

@@ -1,12 +1,11 @@
 .error
   .error__box
-    .box__content
-      h1.title Ops...
-      h3.text Parece que essa página não existe. 
-
-      button.button(type="button", name="button") Voltar 
-      
-  svg.hiker(width='768', height='704', viewbox='47 0 768 704', fill='none', xmlns='http://www.w3.org/2000/svg')
+    .error__content
+      h1.error__title Ops...
+      h3.error__text Parece que essa página não existe. 
+      a.button.error__button(href="#{environment == 'production' ? 'https://camelias-residencial.github.io/produtos-servicos/' : '/'}") Voltar 
+  .error__box    
+    svg.error__illustration(width='768', height='704', viewbox='0 0 768 704', fill='none', xmlns='http://www.w3.org/2000/svg')
       g(clip-path='url(#clip0)')
         path(d='M623.103 144.949L520.182 655.426', stroke='#333333', stroke-width='7', stroke-miterlimit='10', stroke-linecap='round')
         path(d='M190.475 713.511C231.156 655.39 594.559 457.098 812.87 420.465', stroke='#6D6D6D', stroke-width='3', stroke-miterlimit='10', stroke-linecap='round')

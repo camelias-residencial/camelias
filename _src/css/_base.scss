@@ -42,11 +42,11 @@
   align-items: stretch;
   margin: auto;
   max-width: 100%;
-  padding: 10px 0 20px;
+  padding: 10px 20px 20px;
   position: relative;
 
   @media screen and (min-width: $mobile) {
-    top: 136px;
+    top: 186px;
   }
 
   @media screen and (max-width: $mobile-up) {
