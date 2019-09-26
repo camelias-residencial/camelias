@@ -6,11 +6,21 @@
   height: 100%;
   padding: 0;
 
+  @media screen and (max-width: $mobile) {
+    flex-direction: column;
+    width: 100%;
+  }
+
   &__box  {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
+
+    @media screen and (max-width: $mobile) {
+      width: 100%;
+      min-height: 50%;
+    }
   }
 
   &__box:first-child {
@@ -18,7 +28,11 @@
   }
 
   &__box:last-child {
-    border-left: 50px solid white;
+    border-left: 150px solid white;
+
+    @media screen and (max-width: $mobile) {
+      border-left: 0;
+    }
   }
 
   &__content {
@@ -44,5 +58,11 @@
     right: 0;
     bottom: 0;
     max-width: 70%;
+
+    @media screen and (max-width: $mobile) {
+      max-width: 100%;
+      max-height: 52%;
+    }
+
   }
 }
