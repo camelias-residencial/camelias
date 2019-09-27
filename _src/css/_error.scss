@@ -35,11 +35,7 @@
   &__box:last-child {
     border-left: 150px solid white;
 
-    @media screen and (max-width: $web-up) {
-      border-left: 0;
-    }
-
-    @media screen and (max-width: $mobile) {
+    @media screen and (max-width: $hd) {
       border-left: 0;
     }
   }
@@ -52,6 +48,10 @@
   &__title {
     border-bottom: none;
     line-height: 0;
+  }
+
+  &__text {
+    font-size: 12px;
   }
 
   &__button {
