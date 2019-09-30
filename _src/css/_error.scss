@@ -11,11 +11,6 @@
     width: 100%;
   }
 
-  @media screen and (max-width: $mobile) {
-    flex-direction: column;
-    width: 100%;
-  }
-
   &__box  {
     display: flex;
     justify-content: center;
@@ -51,9 +46,16 @@
   }
 
   &__text {
-    font-size: 12px;
-    font-weight: lighter;
+
+    @media screen and (min-width: $tablet) {
+      font-size: 18px;
+    }
+
+    @media screen and (max-width: $tablet-up) {
+      font-size: 14px;
+    }
   }
+
 
   &__button {
     min-width: 100px;
@@ -67,13 +69,16 @@
     right: 0;
     bottom: 0;
 
-    @media screen and (min-width: $mobile) {
+    @media screen and (min-width: $web) {
+      max-width: 35%
+    }
+
+    @media screen and (max-width: $web-up) {
       max-width: 55%;
     }
 
     @media screen and (max-width: $mobile-up) {
       max-width: 90%;
     }
-
   }
 }
