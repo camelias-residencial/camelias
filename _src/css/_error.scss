@@ -1,0 +1,79 @@
+.error {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: $green;
+  height: 100%;
+  padding: 0;
+
+  @media screen and (max-width: $tablet) {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  @media screen and (max-width: $mobile) {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  &__box  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+
+    @media screen and (max-width: $web-up) {
+      width: 100%;
+      min-height: 50%;
+    }
+  }
+
+  &__box:first-child {
+    background-color: $white;
+  }
+
+  &__box:last-child {
+    border-left: 150px solid white;
+
+    @media screen and (max-width: $hd) {
+      border-left: 0;
+    }
+  }
+
+  &__content {
+    text-align: left;
+    line-height: 50px;
+  }
+
+  &__title {
+    border-bottom: none;
+    line-height: 0;
+  }
+
+  &__text {
+    font-size: 12px;
+    font-weight: lighter;
+  }
+
+  &__button {
+    min-width: 100px;
+    display: inline-block;
+    line-height: 1.4;
+  }
+
+  &__illustration {
+    position: absolute;
+    z-index: 44;
+    right: 0;
+    bottom: 0;
+
+    @media screen and (min-width: $mobile) {
+      max-width: 55%;
+    }
+
+    @media screen and (max-width: $mobile-up) {
+      max-width: 90%;
+    }
+
+  }
+}
