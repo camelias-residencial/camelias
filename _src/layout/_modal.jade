@@ -14,8 +14,13 @@
         input.modal__input.input(type='phone', name='phoneNumber'  placeholder="Número com DDD" pattern="/^[1-9]{2}(?=.*[0-9]{4,5})[- ()0-9]{4}+$/"  minlength="10" maxlength="15" required)
         label.modal__tag(for="website") Link (Opcional)
         input.modal__input.input(type='text', name='website' placeholder="Site ou Rede Social")
-        //- label.modal__tag(for="apartment") Bloco e Apartamento
-        //- input.modal__input.input(type='text', name='apartment' placeholder="Bloco e Apartamento" pattern="^[0-9]{2}(?=.*[0-9]{2})+$" required)
+        .modal__condo
+          .modal__block 
+            label.modal__tag(for="block") Bloco
+            input.modal__input.input(type='text', name='apartment' placeholder="Nº" pattern="^[0-9]{2}(?=.*[0-9]{2})+$" required)
+          .modal__apartment
+            label.modal__tag(for="apartment") Ap.
+            input.modal__input.input(type='text', name='apartment' placeholder="Nº" pattern="^[0-9]{2}(?=.*[0-9]{2})+$" required)
 
       .modal__footer
         a.modal__button(href="#close-modal" data-clear) Cancelar

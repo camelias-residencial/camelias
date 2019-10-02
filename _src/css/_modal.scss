@@ -43,7 +43,7 @@
   }
 
   &__holder:not(.modal__holder--small) {
-    height: 502px;
+    max-height: 75%;
   }
 
   &__holder--small {
@@ -81,6 +81,19 @@
     display: flex;
     flex-direction: column;
     padding: 20px;
+  }
+
+  &__condo {
+    display: flex;
+  }
+
+  &__block, {
+    flex-direction: column;
+  }
+
+  &__apartment {
+    flex-direction: column;
+    margin-left: 20px;
   }
 
   &__tag {
