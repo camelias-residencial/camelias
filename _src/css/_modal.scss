@@ -44,7 +44,16 @@
 
   &__holder:not(.modal__holder--small) {
     max-height: 75%;
+
+    @media screen and (min-height: $tablet-up) {
+      max-height: 80%;
+    }
+
+    @media screen and (min-height: $web-up) {
+      max-height: 45%;
+    }
   }
+
 
   &__holder--small {
     height: 220px;

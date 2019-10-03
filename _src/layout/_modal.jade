@@ -17,10 +17,10 @@
         .modal__condo
           .modal__block 
             label.modal__tag(for="block") Bloco
-            input.modal__input.input(type='text', name='apartment' placeholder="Nº" pattern="^[0-9]{2}(?=.*[0-9]{2})+$" required)
+            input.modal__input.input(type='text', name='apartment' placeholder="Nº" pattern="^[0-9]{2}$" required)
           .modal__apartment
             label.modal__tag(for="apartment") Ap.
-            input.modal__input.input(type='text', name='apartment' placeholder="Nº" pattern="^[0-9]{2}(?=.*[0-9]{2})+$" required)
+            input.modal__input.input(type='text', name='apartment' placeholder="Nº" pattern="^[0-9]{2}$" required)
 
       .modal__footer
         a.modal__button(href="#close-modal" data-clear) Cancelar
