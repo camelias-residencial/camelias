@@ -3,303 +3,357 @@
     "name": "Siméia",
     "tag1": "Bolos",
     "tag2": "Doces",
-    "phone": "99705-3157"
+    "phone": "99705-3157",
+    "whatsapp": "99705-3157"
   },
   "user-1": {
     "name": "Silvana",
     "tag1": "Panquecas",
-    "phone": "99777-6885"
+    "phone": "99777-6885",
+    "whatsapp": "99777-6885"
   },
   "user-2": {
     "name": "Sabrina",
     "tag1": "Engenheira Civil",
-    "phone": "99655-9383"
+    "phone": "99655-9383",
+    "whatsapp": "99655-9383"
   },
   "user-3": {
     "name": "Renata",
     "tag1": "Veterinária",
-    "phone": "99179-4244"
+    "phone": "99179-4244",
+    "whatsapp": "99179-4244"
   },
   "user-4": {
     "name": "Renata",
     "tag1": "Manicure",
-    "phone": "99781-3147"
+    "phone": "99781-3147",
+    "whatsapp": "99781-3147"
   },
   "user-5": {
     "name": "Raul",
     "tag1": "Personal Trainer",
-    "phone": "99638-8296"
+    "phone": "99638-8296",
+    "whatsapp": "99638-8296"
   },
   "user-6": {
     "name": "Rachel",
     "tag1": "Bolos",
     "tag2": "Doces",
-    "phone": "99723-6083"
+    "phone": "99723-6083",
+    "whatsapp": "99723-6083"
   },
   "user-7": {
     "name": "Rafael",
     "tag1": "Artesanato",
-    "phone": "99808-6060"
+    "phone": "99808-6060",
+    "whatsapp": "99808-6060"
   },
   "user-8": {
     "name": "Monique",
     "tag1": "Advogada",
-    "phone": "99173-8553"
+    "phone": "99173-8553",
+    "whatsapp": "99173-8553"
   },
   "user-9": {
     "name": "Mônica",
     "tag1": "Cuidadora",
-    "phone": "98815-0491"
+    "phone": "98815-0491",
+    "whatsapp": "98815-0491"
   },
   "user-10": {
     "name": "Meire",
     "tag1": "Antepastos",
-    "phone": "99607-5905"
+    "phone": "99607-5905",
+    "whatsapp": "99607-5905"
   },
   "user-11": {
     "name": "Marília",
     "tag1": "Semi Jóias",
-    "phone": "99821-0022"
+    "phone": "99821-0022",
+    "whatsapp": "99821-0022"
   },
   "user-12": {
     "name": "Maria Cristina",
     "tag1": "Alimentação Vegana",
     "tag2": "Bala de Côco",
     "tag3": "Doces",
-    "phone": "98156-6300"
+    "phone": "98156-6300",
+    "whatsapp": "98156-6300"
   },
   "user-13": {
     "name": "Maria Carolina",
     "tag1": "Advogada",
-    "phone": "99726-2570"
+    "phone": "99726-2570",
+    "whatsapp": "99726-2570"
   },
   "user-14": {
     "name": "Lucas",
     "tag1": "Suporte TI",
-    "phone": "98133-8884"
+    "phone": "98133-8884",
+    "whatsapp": "98133-8884"
   },
   "user-15": {
     "name": "Lourdes",
     "tag1": "Bolos",
     "tag2": "Panos de prato",
-    "phone": "99658-3485"
+    "phone": "99658-3485",
+    "whatsapp": "99658-3485"
   },
   "user-16": {
     "name": "Lígia",
     "tag1": "Costureira",
-    "phone": "99794-7900"
+    "phone": "99794-7900",
+    "whatsapp": "99794-7900"
   },
   "user-17": {
     "name": "Lea",
     "tag1": "Prod. Jeunesse",
     "tag2": "Cabeleireira",
-    "phone": "99756-8880"
+    "phone": "99756-8880",
+    "whatsapp": "99756-8880"
   },
   "user-18": {
     "name": "Lara",
     "tag1": "Rep. Pierre Alexander",
-    "phone": "99801-6398"
+    "phone": "99801-6398",
+    "whatsapp": "99801-6398"
   },
   "user-19": {
     "name": "Jorge",
     "tag1": "Móveis Planejados",
-    "phone": "99878-1347"
+    "phone": "99878-1347",
+    "whatsapp": "99878-1347"
   },
   "user-20": {
     "name": "Jô",
     "tag1": "Massas",
-    "phone": "99686-1012"
+    "phone": "99686-1012",
+    "whatsapp": "99686-1012"
   },
   "user-21": {
     "name": "Jennyfer",
     "tag1": "Esteticista",
-    "phone": "98127-4634"
+    "phone": "98127-4634",
+    "whatsapp": "98127-4634"
   },
   "user-22": {
     "name": "Janaina",
     "tag1": "Personalizados",
-    "phone": "98123-5967"
+    "phone": "98123-5967",
+    "whatsapp": "98123-5967"
   },
   "user-23": {
     "name": "Indira",
     "tag1": "Esteticista",
-    "phone": "98165-7465"
+    "phone": "98165-7465",
+    "whatsapp": "98165-7465"
   },
   "user-24": {
     "name": "Hérica",
     "tag1": "Jornalista",
     "tag2": "Marketing Digital",
-    "phone": "99719-5983"
+    "phone": "99719-5983",
+    "whatsapp": "99719-5983"
   },
   "user-25": {
     "name": "Geraldo Sampaio",
     "tag1": "Restaurante",
-    "phone": "98172-2313"
+    "phone": "98172-2313",
+    "whatsapp": "98172-2313"
   },
   "user-26": {
     "name": "Fernanda",
     "tag1": "Cosméticos",
     "tag2": "Adereços Pet",
-    "phone": "99670-9495"
+    "phone": "99670-9495",
+    "whatsapp": "99670-9495"
   },
   "user-27": {
     "name": "Fábio",
     "tag1": "Chopp",
-    "phone": "99701-1314"
+    "phone": "99701-1314",
+    "whatsapp": "99701-1314"
   },
   "user-28": {
     "name": "Ezequiel",
     "tag1": "Vidraçaria",
-    "phone": "99696-1540"
+    "phone": "99696-1540",
+    "whatsapp": "99696-1540"
   },
   "user-29": {
     "name": "Erika",
     "tag1": "Ovos",
     "tag2": "Tomatinhos",
-    "phone": "98130-0503"
+    "phone": "98130-0503",
+    "whatsapp": "98130-0503"
   },
   "user-30": {
     "name": "Elo Laços",
     "tag1": "Laços",
     "tag2": "Tiaras",
-    "phone": "99694-5300"
+    "phone": "99694-5300",
+    "whatsapp": "99694-5300"
   },
   "user-31": {
     "name": "Eduarda",
     "tag1": "Adesivos",
     "tag2": "Quadros",
     "tag3": "Mandalas",
-    "phone": "98196-0135"
+    "phone": "98196-0135",
+    "whatsapp": "98196-0135"
   },
   "user-32": {
     "name": "Edna",
     "tag1": "Manicure",
-    "phone": "99103-8716"
+    "phone": "99103-8716",
+    "whatsapp": "99103-8716"
   },
   "user-33": {
     "name": "Cristina",
     "tag1": "Cabeleireira",
-    "phone": "99711-0689"
+    "phone": "99711-0689",
+    "whatsapp": "99711-0689"
   },
   "user-34": {
     "name": "Cléo/Ana",
     "tag1": "Bolos",
     "tag2": "Pães",
-    "phone": "99712-4200"
+    "phone": "99712-4200",
+    "whatsapp": "99712-4200"
   },
   "user-35": {
     "name": "Claudia",
     "tag1": "Professora Particular",
-    "phone": "99774-7935"
+    "phone": "99774-7935",
+    "whatsapp": "99774-7935"
   },
   "user-36": {
     "name": "Cissa",
     "tag1": "Bala Baiana",
     "tag2": "Doces Fit",
-    "phone": "99620-4263"
+    "phone": "99620-4263",
+    "whatsapp": "99620-4263"
   },
   "user-37": {
     "name": "Carla",
     "tag1": "Congelados",
-    "phone": "99125-8798"
+    "phone": "99125-8798",
+    "whatsapp": "99125-8798"
   },
   "user-38": {
     "name": "Ana Baroni",
     "tag1": "Advogada",
-    "phone": "99719-6388"
+    "phone": "99719-6388",
+    "whatsapp": "99719-6388"
   },
   "user-39": {
     "name": "Alessandra",
     "tag1": "Natura",
     "phone": "99707-3277",
+    "whatsapp": "99707-3277",
     "website": "https://www.natura.com.br/consultoria/alessandracravo"
   },
   "user-40": {
     "name": "Alan",
     "tag1": "Eletricista Industrial e Predial",
-    "phone": "99741-6071"
+    "phone": "99741-6071",
+    "whatsapp": "99741-6071"
   },
   "user-41": {
     "name": "Maria Angélica",
     "tag1": "Pães Recheados",
     "tag2": "Salgados Assados",
     "tag3": "Beliscões de Goiabada",
-    "phone": "98156-6300"
+    "phone": "98156-6300",
+    "whatsapp": "98156-6300"
   },
   "user-42": {
     "name": "Beatriz",
     "tag1": "Crochê em fio de malha",
     "phone": "1196198-0150",
+    "whatsapp": "1196198-0150",
     "website": "https://www.instagram.com/beanocrochet/"
   },
   "user-43": {
     "name": "Luciana Midory",
     "tag1": "Presentes",
     "tag2": "Designer",
-    "phone": "98169-2077"
+    "phone": "98169-2077",
+    "whatsapp": "98169-2077"
   },
   "user-44": {
     "name": "Vinicius Tavares",
     "tag1": "Designer",
     "tag2": "Editor de vídeo",
     "tag3": "Motion Designer",
-    "phone": "98155-5695"
+    "phone": "98155-5695",
+    "whatsapp": "98155-5695"
   },
   "user-45": {
     "name": "Terê Artesanatos",
     "tag1": "Bolsas",
     "tag2": "Necesserie",
     "tag3": "Porta Celular e Presentes",
-    "phone": "99760-3639"
+    "phone": "99760-3639",
+    "whatsapp": "99760-3639"
   },
   "user-46": {
     "name": "Elaine",
     "tag1": "Artesanato",
     "tag2": "Objetos Decorativos",
     "phone": "99111-4995",
+    "whatsapp": "99111-4995",
     "website": "https://www.instagram.com/santelobauru/"
   },
   "user-47": {
     "name": "David Fontes",
     "tag1": "Advogado",
-    "phone": "98803-0843"
+    "phone": "98803-0843",
+    "whatsapp": "98803-0843"
   },
   "user-48": {
     "name": "José Marcos",
     "tag1": "Telas Mosquiteiras",
     "tag2": "Box",
     "tag3": "Vidros",
-    "phone": "99784-0511"
+    "phone": "99784-0511",
+    "whatsapp": "99784-0511"
   },
   "user-49": {
     "name": "Mariane Carrara",
     "tag1": "Calçados",
     "tag2": "Acessórios",
     "phone": "99133-5620",
+    "whatsapp": "99133-5620",
     "website": "https://www.facebook.com/MahCarrara-Cal%C3%A7ados-2163893740394132/"
   },
   "user-50": {
     "name": "Dilma Matos",
     "tag1": "Consultora Natura",
     "tag2": "Produtos à pronta entrega",
-    "phone": "99787-7314"
+    "phone": "99787-7314",
+    "whatsapp": "99787-7314"
   },
   "user-51": {
     "name": "Roniee",
     "tag1": "Carros",
     "tag2": "Seminovos",
-    "phone": "9978-81975"
+    "phone": "9978-81975",
+    "whatsapp": "9978-81975"
   },
   "user-52": {
     "name": "Milton Matos",
     "tag1": "Formatação Computadores",
-    "phone": "98120-4677"
+    "phone": "98120-4677",
+    "whatsapp": "98120-4677"
   },
   "user-53": {
     "name": "Vanda",
     "tag1": "Demillus",
     "tag2": "Tupperware",
     "tag3": "Coalhadas",
-    "phone": "9970-23211"
+    "phone": "9970-23211",
+    "whatsapp": "9970-23211"
   }
 }
