@@ -134,8 +134,32 @@
   &__block {
     margin-bottom: 10px;
     margin-top: 10px;
+  
   }
 
+  &__tooltip {
+    display: inline-block;
+    position: relative;
+  }
+
+  &__tooltip__popup {
+    visibility: hidden;
+    background-color:black;
+    color:white;
+    padding: 2px 5px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    left: -10px;
+    width: 89px;
+    top: -25px;
+  }
+
+  &__tooltip:hover &__tooltip__popup {
+    visibility: visible;
+  }
+
+  
   &__info {
     border-top: 2px solid $grey;
     width: 100%;
