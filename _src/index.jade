@@ -8,6 +8,7 @@
     .card(data-card, data-name="#{ user.name }")
       .card__contact
         h4.card__title #{ user.name }
+        span.is-hidden #{ user.phone }
         .card__services
           if user.tag1
             span.card__tag #{ user.tag1 }
