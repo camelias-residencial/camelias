@@ -31,5 +31,5 @@ $ (document).ready (function () {
   // Clear Modal Form
   $("[data-clear]").on("click", function(){
     $('#modal-form')[0].reset();
-  });
+  });  
 });

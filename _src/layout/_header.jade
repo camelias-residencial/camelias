@@ -1,7 +1,17 @@
 header.header
-  a.header__logo(href="#{environment == 'production' ? 'https://camelias-residencial.github.io/produtos-servicos/' : '/'}")
-    img(src="assets/logo.jpg", alt="Camelias-logo")
-
+  .header__holder   
+    a.header__logo(href="#{environment == 'production' ? 'https://camelias-residencial.github.io/produtos-servicos/' : '/'}")
+      img(src="assets/logo.jpg", alt="Camelias-logo")
+    .header__menu
+      input(type="checkbox" id="menu")
+      label(for="menu") Menu
+      .header__collapse
+        ul
+          li
+            a.header__link(href="#gates-modal") Portões
+          li
+            a.header__link(href="#contact-modal") Contatos
+  
   .header__search
     input.input.header__input(type='search', placeholder='Pesquise por pessoas, serviços, telefones...')
     svg.header__icon(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', viewbox='0 0 511.999 511.999', style='enable-background:new 0 0 511.999 511.999;', xml:space='preserve')
