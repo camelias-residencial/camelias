@@ -4,13 +4,12 @@ header.header
       img(src="assets/logo.jpg", alt="Camelias-logo")
     .header__menu
       input(type="checkbox" id="menu")
-      label(for="menu") Menu
+      label(for="menu")
+        svg(xmlns='http://www.w3.org/2000/svg', width='24', height='24', viewbox='0 0 100 100')
+            path(fill='#ffffff', d='M100 23.81H0V0h100v23.81zm0 14.286H0v23.809h100V38.096zm0 38.094H0V100h100V76.19z')
       .header__collapse
-        ul
-          li
-            a.header__link(href="#gates-modal") Portões
-          li
-            a.header__link(href="#contact-modal") Contatos
+        a.header__link(href="#gates-modal") Portões
+        a.header__link(href="#contact-modal") Contatos
   
   .header__search
     input.input.header__input(type='search', placeholder='Pesquise por pessoas, serviços, telefones...')
