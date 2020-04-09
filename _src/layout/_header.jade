@@ -2,15 +2,28 @@ header.header
   .header__holder   
     a.header__logo(href="#{environment == 'production' ? 'https://camelias-residencial.github.io/produtos-servicos/' : '/'}")
       img(src="assets/logo.jpg", alt="Camelias-logo")
-    .header__menu
-      input(type="checkbox" id="menu")
-      label(for="menu")
-        svg(xmlns='http://www.w3.org/2000/svg', width='24', height='24', viewbox='0 0 100 100')
-            path(fill='#ffffff', d='M100 23.81H0V0h100v23.81zm0 14.286H0v23.809h100V38.096zm0 38.094H0V100h100V76.19z')
-      .header__collapse
-        a.header__link(href="#gates-modal") Portões
-        a.header__link(href="#contact-modal") Contatos
-  
+    .header__menu.menu
+      input.menu__input(type="checkbox" id="menu")
+      label.menu__button(for="menu")
+        svg.menu__icon(xmlns='http://www.w3.org/2000/svg', width='24', height='24', viewbox='0 0 100 100')
+          path(fill='#9EC681', d='M100 23.81H0V0h100v23.81zm0 14.286H0v23.809h100V38.096zm0 38.094H0V100h100V76.19z')
+        svg.menu__close(width='23', height='23', viewbox='0 0 30 30', fill='none', xmlns='http://www.w3.org/2000/svg')
+          path(d='M15 0C6.72 0 0 6.72 0 15C0 23.28 6.72 30 15 30C23.28 30 30 23.28 30 15C30 6.72 23.28 0 15 0ZM22.5 16.5H16.5V22.5H13.5V16.5H7.5V13.5H13.5V7.5H16.5V13.5H22.5V16.5Z', fill='#9EC681')
+      .menu__collapse
+        a.menu__link(href="#gates-modal") Portões
+        //- a.menu__link(href="#contact-modal") Contatos
+        h6 TELEFONES ÚTEIS
+        h6 SETOR DE CORRESPONDÊNCIA
+        span Ligue do Interfone para o nº: <b>61</b>
+        h6 ADMINISTRAÇÃO CAMÉLIAS
+        a(href="tel:#{ 143203-4411 }") 14 3203-4411 
+        a(href="mailto: administração@parquecamelias.com.br") administração@parquecamelias.com.br
+        h6 2ª VIA DE BOLETOS
+        span NP Service -          
+          a(href="tel:#{ 144009-4444 }") 14 4009-4444
+        a(href="mailto: contato@npservice.com.br") contato@npservice.com.br
+
+
   .header__search
     input.input.header__input(type='search', placeholder='Pesquise por pessoas, serviços, telefones...')
     svg.header__icon(version='1.1', xmlns='http://www.w3.org/2000/svg', xmlns:xlink='http://www.w3.org/1999/xlink', x='0px', y='0px', viewbox='0 0 511.999 511.999', style='enable-background:new 0 0 511.999 511.999;', xml:space='preserve')
