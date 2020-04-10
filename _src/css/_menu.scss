@@ -1,0 +1,96 @@
+.menu {
+
+  &__input {
+    display: none;
+  }
+
+  &__button {
+    display: block;
+    cursor: pointer;
+    height: 24px;
+    padding: 15px;
+    transform: translateX(0);
+    width: 24px;
+    z-index: 9995;
+  }
+
+  &__button:hover .menu__open {
+    fill: $green;
+  }
+
+  &__list {
+    position: fixed;
+    width: 300px;
+    top: 0;
+    background-color: white;
+    padding: 60px 10px 10px;
+    height: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    left: 0;
+    margin: 0;
+    max-width: 100%;
+    transform: translateX(-350px);
+    z-index: 9994;
+    overflow: hidden;
+  }
+
+  &__button,
+  &__list {
+    transition: transform .2s linear;
+  }
+
+  &__item {
+    margin: 1rem 0 2.5rem;
+    text-align: center;
+  }
+
+  &__headline {
+    margin: 10px 0;
+  }
+
+  &__icon {
+    display: block;
+    fill: $frechgrey;
+    margin: auto;
+  }
+
+  &__link {
+    color: $asphalt;
+    display: block;
+    text-decoration: none;
+  }
+
+  &__link:hover {
+    color: $green;
+  }
+
+  &__open {
+    fill: $black;
+    transition: fill .25s linear;
+  }
+
+  &__close {
+    transform: rotate(45deg);
+    transition: transform .25s linear;
+  }
+
+  &__close:hover {
+    transform: rotate(135deg);
+  }
+
+  &__input:checked ~ .menu__list {
+    transform: translateX(0);
+  }
+
+  &__input:not(:checked) + .menu__button .menu__close {
+    display: none;
+  }
+
+  &__input:checked + .menu__button .menu__open {
+    display: none;
+  }
+
+  &__input:checked + .menu__button {
+    transform: translateX(123px);
+  }
+}

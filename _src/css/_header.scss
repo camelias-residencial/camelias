@@ -13,6 +13,11 @@
   padding: 0 20px 20px;
   z-index: 1000;
 
+  &__holder {
+    display: flex;
+    align-items: center;
+  }
+
   &__logo {
     margin: 10px 0;
     transition: opacity 0.25s linear;
@@ -22,12 +27,26 @@
     opacity: 0.55;
   }
 
+  &__menu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1001;
+  }
+
+  &__link {
+    margin: 10px;
+  }
+
   &__search {
     position: relative;
     width: 50%;
 
-    @media screen and (max-width: $tablet) {
-      width: 100%;
+  @media screen and (max-width: $tablet) {
+     width: 100%;
     }
   }
 
@@ -36,7 +55,7 @@
     height: 12px;
     position: absolute;
     margin: 15px;
-    fill: #6b7c93; /*figure which color this is*/
+    fill: $darkgrey;
     left: 0;
     transition: all 0.25s linear;
     pointer-events: none;

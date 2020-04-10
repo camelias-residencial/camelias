@@ -1,6 +1,8 @@
 header.header
-  a.header__logo(href="#{environment == 'production' ? 'https://camelias-residencial.github.io/produtos-servicos/' : '/'}")
-    img(src="assets/logo.jpg", alt="Camelias-logo")
+  .header__holder
+    a.header__logo(href="#{environment == 'production' ? 'https://camelias-residencial.github.io/produtos-servicos/' : '/'}")
+      img(src="assets/logo.jpg", alt="Camelias-logo")
+    != partial("_menu")
 
   .header__search
     input.input.header__input(type='search', placeholder='Pesquise por pessoas, serviços, telefones...')

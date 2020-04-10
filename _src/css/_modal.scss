@@ -1,6 +1,5 @@
 .modal {
   background-color: rgba(0, 0, 0, 0.8);
-  -webkit-transition: all 0.3s;
   opacity: 0;
   pointer-events: none;
   transition: all 0.3s;
@@ -46,9 +45,12 @@
     max-height: 580px;
   }
 
-
   &__holder--small {
     height: 220px;
+  }
+
+  &__holder--big {
+    width: 90%;
   }
 
   &__header,
@@ -88,7 +90,7 @@
     display: flex;
   }
 
-  &__block, {
+  &__block {
     flex-direction: column;
   }
 
