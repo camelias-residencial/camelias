@@ -8,72 +8,89 @@
     display: block;
     cursor: pointer;
     height: 24px;
+    padding: 15px;
+    transform: translateX(0);
+    width: 24px;
     z-index: 9995;
   }
 
-  &__button::before {
-    content: '';
-    position: fixed;
-    width: calc(100% - 200px);
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    opacity: 0;
-    right: 0;
-    top: 0;
-    visibility: hidden;
-    z-index: 9994;
-    transition: opacity .2s linear;
+  &__button:hover .menu__open {
+    fill: $green;
   }
 
-  &__collapse {
+  &__list {
     position: fixed;
-    width: 200px;
+    width: 300px;
     top: 0;
     background-color: white;
     padding: 60px 10px 10px;
     height: 100%;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     left: 0;
-    transform: translateX(-250px);
-    transition: transform .2s linear;
+    margin: 0;
+    max-width: 100%;
+    transform: translateX(-350px);
     z-index: 9994;
     overflow: hidden;
   }
 
+  &__button,
+  &__list {
+    transition: transform .2s linear;
+  }
+
+  &__item {
+    margin: 1rem 0 2.5rem;
+    text-align: center;
+  }
+
+  &__headline {
+    margin: 10px 0;
+  }
+
+  &__icon {
+    display: block;
+    fill: $frechgrey;
+    margin: auto;
+  }
+
   &__link {
-    display: block; 
-    padding: 5px;
-    text-decoration: none;
     color: $asphalt;
-    font-size: 12px;
+    display: block;
+    text-decoration: none;
   }
 
   &__link:hover {
     color: $green;
-    background-color: $white; 
-    font-size: 13px;
-    padding: 4px;
+  }
+
+  &__open {
+    fill: $black;
+    transition: fill .25s linear;
   }
 
   &__close {
     transform: rotate(45deg);
+    transition: transform .25s linear;
   }
 
-  &__input:checked ~ .menu__collapse {
-    transform: translateX(0);   
+  &__close:hover {
+    transform: rotate(135deg);
+  }
+
+  &__input:checked ~ .menu__list {
+    transform: translateX(0);
   }
 
   &__input:not(:checked) + .menu__button .menu__close {
     display: none;
   }
 
-  &__input:checked + .menu__button .menu__icon {
+  &__input:checked + .menu__button .menu__open {
     display: none;
   }
 
-  &__input:checked + .menu__button::before {
-    opacity: 1;
-    visibility: visible;
+  &__input:checked + .menu__button {
+    transform: translateX(123px);
   }
-
 }

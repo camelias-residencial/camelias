@@ -45,9 +45,12 @@
     max-height: 580px;
   }
 
-
   &__holder--small {
     height: 220px;
+  }
+
+  &__holder--big {
+    width: 90%;
   }
 
   &__header,
@@ -141,7 +144,7 @@
     h1{
       margin: 15px 0;
     }
-    
+
     h3 {
       font-size: 16px;
       margin-bottom: 10px;
@@ -150,7 +153,7 @@
     span {
       font-size: 16px;
     }
-    
+
     a {
       text-decoration: none;
       color: black;
@@ -159,7 +162,7 @@
     }
 
     a:hover {
-      color: $green;      
+      color: $green;
       font-size: 18px;
       text-decoration: underline;
       font-weight: bolder;
