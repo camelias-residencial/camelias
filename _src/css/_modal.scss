@@ -132,40 +132,4 @@
       background-color: $grey;
     }
   }
-  &__holder--about {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    // margin: 10px 0;
-    color: black;
-    justify-content: center;
-    height: 80%;
-
-    h1{
-      margin: 15px 0;
-    }
-
-    h3 {
-      font-size: 16px;
-      margin-bottom: 10px;
-    }
-
-    span {
-      font-size: 16px;
-    }
-
-    a {
-      text-decoration: none;
-      color: black;
-      font-size: 16px;
-      transition: all 0.5s linear;
-    }
-
-    a:hover {
-      color: $green;
-      font-size: 18px;
-      text-decoration: underline;
-      font-weight: bolder;
-    }
-  }
 }
