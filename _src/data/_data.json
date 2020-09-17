@@ -342,7 +342,7 @@
     "tag1": "Carros",
     "tag2": "Seminovos",
     "phone": "9978-81975",
-    "whatsapp": "149978-1975"
+    "whatsapp": "1499781975"
   },
   "user-52": {
     "name": "Milton Matos",
@@ -355,7 +355,14 @@
     "tag1": "Demillus",
     "tag2": "Tupperware",
     "tag3": "Coalhadas",
-    "phone": "9970-23211",
-    "whatsapp": "149970-3211"
+    "phone": "99702-3211",
+    "whatsapp": "1499703211"
+  },
+  "user-54": {
+    "name": "Janaína A.S. Amorim",
+    "tag1": "Geladinho Gourmet",
+    "tag2": "Churrasquinho",
+    "phone": "1899713-0929",
+    "whatsapp": "18997130929"
   }
 }
