@@ -11,7 +11,7 @@
     width: 100%;
   }
 
-  &__box  {
+  &__box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,16 +58,16 @@
 
 
   &__button {
-    min-width: 100px;
     display: inline-block;
     line-height: 1.4;
+    min-width: 100px;
   }
 
   &__illustration {
-    position: absolute;
-    z-index: 44;
-    right: 0;
     bottom: 0;
+    position: absolute;
+    right: 0;
+    z-index: 44;
 
     @media screen and (min-width: $web) {
       max-width: 35%
