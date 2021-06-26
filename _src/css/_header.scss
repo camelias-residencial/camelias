@@ -27,8 +27,11 @@
 
   &__logo {
     margin: 10px 0 10px 20px;
-    max-width: 150px;
     transition: opacity .25s linear;
+    
+    @media screen and (min-width: $mobile) {
+      max-width: 150px;
+    }
   }
 
   &__logo:hover {
