@@ -5,11 +5,11 @@
   }
 
   &__button {
+    align-items: center;
     cursor: pointer;
-    display: block;
+    display: flex;
     height: 24px;
-    padding: 15px;
-    transform: translateX(5px);
+    transform: translateX(0);
     width: 24px;
     z-index: 9995;
   }
@@ -109,6 +109,11 @@
   }
 
   &__input:checked + .menu__button {
-    transform: translateX(123px);
+    @media screen and (min-width: $mobile) {
+      transform: translateX(103px);
+    }
+    @media screen and (max-width: $mobile-up) {
+      transform: translateX(117px);
+    }
   }
 }
